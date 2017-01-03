@@ -4,7 +4,7 @@
         <div class="container">       
             <h1 class="logo">
                 <a class="scrollto" href="#hero">
-                    <span class="logo-icon-wrapper"><img class="logo-icon" src="{{asset('template/web/assets/images/icon.jpeg')}}" alt="icon"></span>
+                    <span class="logo-icon-wrapper"><img class="logo-icon" src="{{asset('template/web/assets/images/icon.png')}}" alt="icon"></span>
                     <span class="text"><span class="highlight">Developer</span>Kampus</span></a>
             </h1><!--//logo-->
             <nav class="main-nav navbar-right" role="navigation">
@@ -19,10 +19,9 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li class="active nav-item"><a class="scrollto" href="#about">About</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#testimonials">Testimonials</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#features">Course</a></li>                        
+                        <li class="nav-item"><a class="scrollto" href="#testimonials">Testimonials</a></li>                      
                         <li class="nav-item"><a class="scrollto" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#pricing">Pricing</a></li>
+                        <li class="nav-item"><a class="scrollto" href="#pricing">Course</a></li>
                         <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
@@ -58,9 +57,9 @@
                     <div class="item-content container">
                         <div class="item-content-inner">
                             
-                            <h2 class="heading">AppKit is the perfect front-end <br class="hidden-xs">template for app developers</h2>
-                            <p class="intro">It helps developers to build beautiful and user-friendly web apps quickly and easily!</p>
-                            <a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Get Started</a>
+                            <h2 class="heading">Developer Kampus tempat untuk belajar porogramming <br class="hidden-xs">dari dasar hingga mahir</h2>
+                            <p class="intro">Sangat membantu untuk anda yang ingin menjadi programmer.</p>
+                            <a class="btn btn-primary btn-cta scrollto" href="#picing">Daftar Sekarang</a>
                             
                         </div><!--//item-content-inner-->
                     </div><!--//item-content-->
@@ -70,9 +69,9 @@
                     <div class="item-content container">
                         <div class="item-content-inner">
                             
-                            <h2 class="heading">Angular Lover?</h2>
-                            <p class="intro">AppKit also comes with an Angular JS version. It empowers developers to create UI components with very little code. Feeding data into AppKit directives is quick and easy.</p>
-                            <a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Find out more</a>
+                            <h2 class="heading">Anda Suka Web Development?</h2>
+                            <p class="intro">Kami Siap membantu anda dalam mengembangkan skill anda dibidang web development</p>
+                            <a class="btn btn-primary btn-cta scrollto" href="#picing">Daftar Sekarang</a>
                             
                         </div><!--//item-content-inner-->
                     </div>
@@ -82,9 +81,9 @@
                     <div class="item-content container">
                         <div class="item-content-inner">
                             
-                            <h2 class="heading">Ready to build outstanding apps?</h2>
-                            <p class="intro">Get AppKit today and it will supercharge your development. It's a must-have for any developers who are serious about building great products!</p>
-                            <a class="btn btn-primary btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Try it now</a>
+                            <h2 class="heading">Siap untuk menjadi Android Developer?</h2>
+                            <p class="intro">Tingkatkan skill android anda bersama kami.</p>
+                            <a class="btn btn-primary btn-cta scrollto" href="#picing">Daftar Sekarang</a>
                             
                         </div><!--//item-content-inner-->
                     </div>
@@ -96,15 +95,19 @@
     
     <div id="about" class="about-section">
         <div class="container text-center">
-            <h2 class="section-title">Why Use AppKit?</h2>
-            <p class="intro">Appkit uses modern front-end technologies and is packed with useful components and widgets to speed up your app development</p>
+            <h2 class="section-title">Tentang Developer Kampus</h2>
+            <p class="intro">Developer Kampus adalah Kumpulan anak anak muda yang berniat untuk membantu membangkitkan industri teknologi indonesia dengan membuat sebuah lembaga kursus khusus bidang programming</p>
             <ul class="technologies list-inline">
                 <li><img src="{{asset('template/web/assets/images/logo-bootstrap.svg')}}" alt="Bootstrap"></li>
-                <li><img src="{{asset('template/web/assets/images/logo-angular.svg')}}" alt="Angular"></li>
                 <li><img src="{{asset('template/web/assets/images/logo-html5.svg')}}" alt="HTML5"></li>
                 <li><img src="{{asset('template/web/assets/images/logo-css3.svg')}}" alt="CSS3"></li>
-                <li><img src="{{asset('template/web/assets/images/logo-less.svg')}}" alt="Less"></li>
-                <li><img src="{{asset('template/web/assets/images/logo-jquery.svg')}}" alt="jQuery"></li>
+                <li><img src="{{asset('template/web/assets/images/logo-jquery.svg')}}" alt="Jquery"></li>
+                <li><img src="{{asset('template/web/assets/images/laravel.png')}}" heigt="53" width="60" alt="Laravel"></li>
+                <li><img src="{{asset('template/web/assets/images/codeigniter.png')}}" heigt="53" width="60" alt="Codeigniter"></li>
+                <li><img src="{{asset('template/web/assets/images/php.png')}}" heigt="53" width="60" alt="PHP"></li>
+                <li><img src="{{asset('template/web/assets/images/android.jpg')}}" heigt="53" width="60" alt="Android"></li>
+                <li><img src="{{asset('template/web/assets/images/c++.png')}}" heigt="53" width="60" alt="C++"></li>
+                <li><img src="{{asset('template/web/assets/images/java.png')}}" heigt="53" width="60" alt="C++"></li>
             </ul>
             
             <div class="items-wrapper row">
@@ -113,9 +116,9 @@
                         <div class="figure-holder">
                             <img class="figure-image" src="{{asset('template/web/assets/images/figure-1.png')}}" alt="image">
                         </div><!--//figure-holder-->
-                        <h3 class="item-title">UX-Centered Design</h3>
+                        <h3 class="item-title">Web Desain</h3>
                         <div class="item-desc">
-                            Bespoke UX/UI design to enhance your app's user experience. Let AppKit take care of the design so you can develop without design resources.
+                            Kami mempunyai tim yang menekuni dunia desain, sehingga para peserta diajarkan membuat UI/UX yang baik, dari para instruktur.
                         </div><!--//item-desc-->
                     </div><!--//item-inner-->
                 </div><!--//item-->
@@ -124,9 +127,9 @@
                         <div class="figure-holder">
                             <img class="figure-image" src="{{asset('template/web/assets/images/figure-2.png')}}" alt="image">
                         </div><!--//figure-holder-->
-                        <h3 class="item-title">Supercharge App Development</h3>
+                        <h3 class="item-title">Web Development</h3>
                         <div class="item-desc">
-                            AppKit provides developers with a ready-made front-end solution so you can concentrate on making your app’s back-end robust and awesome. It empowers small teams to create big things. </div><!--//item-desc-->
+                            Bagi para peserta yang ingin menjadi web developer, kami juga siap menyediakan kursus web development diantaranya PHP Native, Codeigniter, dan Laravel Course</div><!--//item-desc-->
                     </div><!--//item-inner-->
                 </div><!--//item-->
                 <div class="item col-mg-4 col-sm-4 col-sm-12">
@@ -134,9 +137,9 @@
                         <div class="figure-holder">
                             <img class="figure-image" src="{{asset('template/web/assets/images/figure-3.png')}}" alt="image">
                         </div><!--//figure-holder-->
-                        <h3 class="item-title">Mobile First</h3>
+                        <h3 class="item-title">Android Development</h3>
                         <div class="item-desc">
-                            Built on the popular Bootstrap framework, so the design is “Mobile First” and fully responsive. For a startup, building an HTML5 webapp which also works across mobile devices is the most cost-effective way to get your product off the ground.</div><!--//item-desc-->
+                            Para peserta dapat memilih kursus dari pemula atau pun langsung ke level advance. Disini kami sediakan tim untuk membantu para peserta.</div><!--//item-desc-->
                     </div><!--//item-inner-->
                 </div><!--//item-->
             </div><!--//items-wrapper-->
@@ -145,71 +148,42 @@
     
     <div id="testimonials" class="testimonials-section">
         <div class="container">
-            <h2 class="section-title text-center">Many Happy Customers</h2>
+            <h2 class="section-title text-center">Apa Kata Mereka?</h2>
             <div class="item center-block">
                 <div class="profile-holder">
-                    <img class="profile-image" src="{{asset('template/web/assets/images/profile-1.png')}}" alt="profile">
+                    <img class="profile-image img-circle" src="{{asset('template/web/assets/images/pp.jpg')}}" alt="profile">
                 </div>
                 <div class="quote-holder">
                     <blockquote class="quote">
-                        <p>Testimonial goes here Donec felis odio, sagittis eu cursus ac, porttitor eu purus. In a bibendum dui. Nullam id est sed felis rutrum tincidunt eu nec nisi morbi euismod semper neque sed lobortis.</p>
-                        <div class="quote-source">
-                            <span class="name">@JohnK,</span>
-                            <span class="meta">San Francisco</span>
+                        <p>Pengalaman luar biasa bergabung disini, semoga ke depannya developer kampus dapat lebih baik lagi dalam hal pengajaran materi</p>
+                        <div class="quote-source">  
+                            <span class="name">Andre Alifridho,</span>
+                            <span class="meta">Tangerang</span>
                         </div><!--//quote-source-->
                     </blockquote>
                 </div><!--//quote-holder-->
             </div><!--//item-->
             <div class="item item-reversed center-block">
                 <div class="profile-holder">
-                    <img class="profile-image" src="{{asset('template/web/assets/images/profile-2.png')}}" alt="profile">
+                    <img class="profile-image img-circle" src="{{asset('template/web/assets/images/pardi.jpg')}}" alt="profile">
                 </div>
                 <div class="quote-holder">
                     <blockquote class="quote">
-                        <p>Testimonial goes here fermentum sed pharetra in, aliquet sodales quam. Ut sed turpis quis orci viverra aliquet interdum ut ipsum. </p>
+                        <p>Bangga rasanya bergabung disini, selain mendapat pengajaran kita juga dapat berkonsultasi dengan para instruktur jika ada masalah skripsi atau pun masalah lain yang berhubungan dengan coding.</p>
                         <div class="quote-source">
-                            <span class="name">@LisaWhite,</span>
-                            <span class="meta">London</span>
+                            <span class="name">Supardi,</span>
+                            <span class="meta">Tangerang</span>
                         </div><!--//quote-source-->
                     </blockquote>
-                </div><!--//quote-holder-->
-            </div><!--//item-->
-            <div class="item center-block">
-                <div class="profile-holder">
-                    <img class="profile-image" src="{{asset('template/web/assets/images/profile-3.png')}}" alt="profile">
-                </div>
-                <div class="quote-holder">
-                    <blockquote class="quote">
-                        <p>Testimonial goes here vestibulum non hendrerit lorem, luctus tincidunt erat. Sed pharetra aliquam posuere. Pellentesque sollicitudin.</p>
-                        <div class="quote-source">
-                            <span class="name">@MattH,</span>
-                            <span class="meta">Berlin</span>
-                        </div><!--//quote-source-->
-                    </blockquote>
-                </div><!--//quote-holder-->
-            </div><!--//item-->
-            <div class="item item-reversed center-block">
-                <div class="profile-holder">
-                    <img class="profile-image" src="{{asset('template/web/assets/images/profile-4.png')}}" alt="profile">
-                </div>
-                <div class="quote-holder">
-                    <blockquote class="quote">
-                        <p>Testimonial goes here lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis</p>
-                         <div class="quote-source">
-                            <span class="name">@RyanW,</span>
-                            <span class="meta">Paris</span>
-                        </div><!--//quote-source-->
-                    </blockquote>
-                    
                 </div><!--//quote-holder-->
             </div><!--//item-->
         </div><!--//container-->
     </div><!--//testimonials-->
     
-    <div id="features" class="features-section">
+    {{-- <div id="features" class="features-section">
         <div class="container text-center">
             <h2 class="section-title">Discover Features</h2>
-            <p class="intro">AppKit comes with an AngularJS version, 4 colour schemes and 100+ components</p>
+            <p class="intro">AppKit comes with an AngularJS version, 4 colour schemes and 100+ components</p> --}}
             
             {{-- <div class="tabbed-area row">
                 
@@ -261,37 +235,34 @@
                 
             </div><!--//tabbed-area--> --}}
             
-        </div><!--//container-->
-    </div><!--//features-->
+        {{-- </div> --}}<!--//container-->
+    {{-- </div> --}}<!--//features-->
     
     <div class="team-section" id="team">
         <div class="container text-center">
             <h2 class="section-title">Our Team</h2>
-            <p class="intro">See who are behind AppKit</p>
+            <p class="intro">Lihat tim kami</p>
             <div class="story">
-                <p>AppKit is created by Xiaoying Riley and Tomasz Najdek. Xiaoying and Tom got to know each other while working as freelancers on Google projects and became good friends. They firmly believe with the right resource, solopreneurs and small teams can execute beautiful products too. Thus they made AppKit to help developers and startups make outstanding products - the internet has made it possible for the "small guys" to compete directly with the "big guys".</p>
+                <p>Developer kampus terdiri dari beberapa orang yang berminat untuk memajukan dunia programming di indonesia. Kami berkomitmen untuk mengembangkan talenta talenta yang berbakat.</p>
             </div>
             <div class="members-wrapper row">
                 <div class="item col-md-6 col-sm-6 col-xs-12">
                     <div class="item-inner">
                         <div class="profile">
-                            <img class="profile-image" src="{{asset('template/web/assets/images/team-1.png')}}" alt="Xiaoying Riley" />
+                            <img class="profile-image img-circle" src="{{asset('template/web/assets/images/ppsyehbi.jpg')}}" alt="Xiaoying Riley" />
                         </div>
                         
                         <div class="member-content">
-                            <h3 class="member-name">Xiaoying Riley</h3>
-                            <div class="member-title">Full-Stack Designer</div>
+                            <h3 class="member-name">Syehbi Herbian</h3>
+                            <div class="member-title">Co-Founder</div>
                             <ul class="social list-inline">
-                                <li><a class="twitter" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                
-                                <li><a class="facebook" href="https://www.facebook.com/3rdwavethemes/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a class="github" href="https://github.com/xriley" target="_blank"><i class="fa fa-github"></i></a></li>
-                                <li><a class="dribbble" href="https://dribbble.com/Xiaoying" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                               <li><a class="linkedin" href="https://uk.linkedin.com/in/xiaoying" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a class="facebook" href="https://www.facebook.com/sebbydong/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="github" href="https://github.com/syehbiherbian" target="_blank"><i class="fa fa-github"></i></a></li>
+                               <li><a class="linkedin" href="https://id.linkedin.com/in/syehbiherbian" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                 
                             </ul>
                             <div class="member-desc">
-                               <p>Xiaoying is the UX/UI designer behind AppKit. She loves designing and making Bootstrap themes/templates for developers and startups. You can find her sharing useful UX and webdev related content on <a href="https://twitter.com/3rdwave_themes" target="_blank">Twitter</a> and <a href="https://www.facebook.com/3rdwavethemes/" target="_blank">Facebook</a>. Follow her if you like what she does!</p>
+                               <p>Berpengalaman di bidang web programming, sekarang sedang bekerja sebagai web developer di digital agency di daerah tangerang <a href="https://twitter.com/syehbiherbian" target="_blank">Twitter</a> and <a href="https://www.facebook.com/sebbydong/" target="_blank">Facebook</a>. Follow me if you like what i do</p>
                             </div><!--//member-desc-->
                         </div><!--//member-content-->
                     </div><!--//item-inner-->
@@ -299,33 +270,35 @@
                 <div class="item col-md-6 col-sm-6 col-xs-12">
                     <div class="item-inner">
                         <div class="profile">
-                            <img class="profile-image" src="{{asset('template/web/assets/images/team-2.png')}}" alt="Tom Najdek" />
+                            <img class="profile-image" src="{{asset('template/web/assets/images/dodi.png')}}" alt="Dodi Rivaldi" />
                         </div>
                         
                         <div class="member-content">
-                            <h3 class="member-name">Tomasz Najdek</h3>
-                            <div class="member-title">Full-Stack Developer</div>
+                            <h3 class="member-name">Dodi Rivaldi</h3>
+                            <div class="member-title">Founder</div>
                             <ul class="social list-inline">
-                                <li><a class="twitter" href="http://twitter.com/tnajdek" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.doppnet.com/" target="_blank"><i class="fa fa-globe"></i></a></li>
-                                <li><a class="github" href="https://github.com/tnajdek" target="_blank"><i class="fa fa-github"></i></a></li>
+                                <li><a class="facebook" href="https://www.facebook.com/sebbydong/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a class="github" href="https://github.com/syehbiherbian" target="_blank"><i class="fa fa-github"></i></a></li>
+                               <li><a class="linkedin" href="https://id.linkedin.com/in/syehbiherbian" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                
                                 
                             </ul>
                             <div class="member-desc">
-                                <p>Tom takes care of everything on the programming end making the interface rich and flexible. He is a full-stack developer specialising in building large, scalable and user-friendly web apps. Follow him on <a href="https://twitter.com/tnajdek" target="_blank">Twitter</a> for fresh developer tips and check out his <a href="https://github.com/tnajdek" target="_blank">Github</a> for useful open-source tools.
+                                <p>Dodi adalah salah satu asisten lab disalah satu perguruan tinggi swasta di tangerang, saat ini ia juga menjadi android developer di salah satu digital agency. 
 </p>
                             </div><!--//member-desc-->
                         </div><!--//member-content-->
                     </div><!--//item-inner-->
                 </div><!--//item-->
             </div><!--//members-wrapper-->
+            <a class="btn btn-cta btn-primary" href="#" style="margin-top: 25px;">Lihat Lebih Lanjut</a>
         </div>
+
     </div><!--//team-section-->
     
     <div id="pricing" class="pricing-section">
         <div class="container text-center">
-            <h2 class="section-title">Pricing</h2>
+            <h2 class="section-title">Daftar Kursus</h2>
             <div class="intro">AppKit's future updates are 100% FREE for existing customers</div>
             <div class="pricing-wrapper">
                 <div class="item item-1 col-md-4 col-sm-4 col-xs-12">
@@ -375,6 +348,48 @@
                         
                     </div><!--//item-inner-->
                 </div><!--//item-->
+                <div class="item item-3 col-md-4 col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <h3 class="item-heading">Extended</h3>
+                        <div class="price-figure">
+                            <span class="currency">$</span><span class="number">1200</span>
+                        </div><!--//price-figure-->
+                        <div class="price-desc">
+                            <p>May license, sublicense, redistribute, or resell the item...</p>
+                            <a href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">License Details</a>
+                        </div><!--//price-desc-->
+                        <a class="btn btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Buy Now</a>
+                        
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item item-3 col-md-4 col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <h3 class="item-heading">Extended</h3>
+                        <div class="price-figure">
+                            <span class="currency">$</span><span class="number">1200</span>
+                        </div><!--//price-figure-->
+                        <div class="price-desc">
+                            <p>May license, sublicense, redistribute, or resell the item...</p>
+                            <a href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">License Details</a>
+                        </div><!--//price-desc-->
+                        <a class="btn btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Buy Now</a>
+                        
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+                <div class="item item-3 col-md-4 col-sm-4 col-xs-12">
+                    <div class="item-inner">
+                        <h3 class="item-heading">Extended</h3>
+                        <div class="price-figure">
+                            <span class="currency">$</span><span class="number">1200</span>
+                        </div><!--//price-figure-->
+                        <div class="price-desc">
+                            <p>May license, sublicense, redistribute, or resell the item...</p>
+                            <a href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">License Details</a>
+                        </div><!--//price-desc-->
+                        <a class="btn btn-cta" href="https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm" target="_blank">Buy Now</a>
+                        
+                    </div><!--//item-inner-->
+                </div><!--//item-->
             </div><!--//pricing-wrapper-->
             
         </div><!--//container-->
@@ -394,7 +409,7 @@
     <footer class="footer text-center">
         <div class="container">
             <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+            <small class="copyright">Designed with <i class="fa fa-heart"></i> by Developer Kampus</small>
             
             
         </div><!--//container-->
